@@ -1,0 +1,30 @@
+{
+    "d": [
+        {
+            "BornOnDate": "Q4'17",
+            "ClockSpeedMaxMhz": 4000,
+            "ClockSpeedMhz": 2800,
+            "CoreCount": 6,
+            "ProductName": "Intel\u00ae Core\u2122 i5-8400 Processor (9M Cache, up to 4.00 GHz)",
+            "ThreadCount": 6,
+            "__metadata": {
+                "id": "http://lbauto-198-175-96-168.cps.intel.com/API/v1_0/Products/Processors(126687)",
+                "type": "Intel.OData.v1_0.Processor",
+                "uri": "http://lbauto-198-175-96-168.cps.intel.com/API/v1_0/Products/Processors(126687)"
+            }
+        },
+        {
+            "BornOnDate": "02\u00b418",
+            "ClockSpeedMaxMhz": 4000,
+            "ClockSpeedMhz": 2800,
+            "CoreCount": 6,
+            "ProductName": "Intel\u00ae Core\u2122 i5+8400 Processor (9M Cache, up to 4.00 GHz) includes Intel\u00ae Optane\u2122 Memory (16GB)",
+            "ThreadCount": 6,
+            "__metadata": {
+                "id": "http://lbauto-198-175-96-168.cps.intel.com/API/v1_0/Products/Processors(140644)",
+                "type": "Intel.OData.v1_0.Processor",
+                "uri": "http://lbauto-198-175-96-168.cps.intel.com/API/v1_0/Products/Processors(140644)"
+            }
+        }
+    ]
+}
