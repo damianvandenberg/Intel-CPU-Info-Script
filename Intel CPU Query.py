@@ -25,20 +25,16 @@ def cpuinfo(pNumber):
     while True:
         try:
             data = json.loads(response.text)
-            corecount = '{} {}'.format("Corecount: ",
-                                       data['d'][0]['CoreCount'])
-            threadcount = '{} {}'.format("Threadcount: ",
-                                         data['d'][0]['ThreadCount'])
-            clockspeedmhz = '{} {}'.format("Clockspeed MHz: ",
-                                         data['d'][0]['ClockSpeedMhz'])
-            clockspeedmaxmhz = '{} {}'.format("Max Clockspeed MHz: ",
-                                         data['d'][0]['ClockSpeedMaxMhz'])
-            launchdate = '{} {}'.format("Launchdate: ",
-                                        data['d'][0]['BornOnDate'])
-            productname = '{} {}'.format("Productname: ",
-                                         data['d'][0]['ProductName'])
-            print('{}\n{}\n{}\n{}\n{}\n{}'.format(corecount, threadcount, clockspeedmhz, clockspeedmaxmhz,
-                                                  launchdate, productname))
+
+            core_count = '{} {}'.format("Corecount: ", data['d'][0]['CoreCount'])
+            thread_count = '{} {}'.format("Threadcount: ", data['d'][0]['ThreadCount'])
+            clock_speed_mhz = '{} {}'.format("Clockspeed MHz: ", data['d'][0]['ClockSpeedMhz'])
+            clock_speed_max_mhz = '{} {}'.format("Max Clockspeed MHz: ", data['d'][0]['ClockSpeedMaxMhz'])
+            launch_date = '{} {}'.format("Launchdate: ", data['d'][0]['BornOnDate'])
+            product_name = '{} {}'.format("Productname: ", data['d'][0]['ProductName'])
+
+            print('{}\n{}\n{}\n{}\n{}\n{}'.format(core_count, thread_count, clock_speed_mhz, clock_speed_max_mhz,
+                                                  launch_date, product_name))
 
             break   # Hier stopt het Try block.
 
